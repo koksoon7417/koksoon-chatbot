@@ -1,0 +1,27 @@
+# example netlify.toml
+[build]
+  command = "yarn install && yarn build"
+  functions = "backend/src"
+  publish = "frontend/build/"
+
+[functions]
+  directory = "backend/src"
+  included_files = ["backend/src/**.json"]
+
+  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
+  ## Not needed for static site generators.
+  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
+
+  ## (optional) Settings for Netlify Dev
+  ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
+  [dev]
+    command = "yarn start" # Command to start your dev server
+    framework = "create-react-app" # or "#static" to force a static server
+    targetPort = 3000 # # The port for your application server, framework or site generator
+    port = 8080 # The port that the netlify dev will be accessible on
+   # publish = "build" # Folder with the static content for _redirect file
+
+  ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/

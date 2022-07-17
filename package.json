@@ -1,0 +1,22 @@
+{
+  "name": "koksoon-chatbot",
+  "version": "1.0.0",
+  "description": "This repo contains both backend and frontend components.",
+  "scripts": {
+    "install": "cd frontend && yarn && cd ../backend && yarn",
+    "start": "cd frontend && yarn start",
+    "build": "cd frontend && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koksoon7417/koksoon-chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koksoon7417/koksoon-chatbot/issues"
+  },
+  "homepage": "https://github.com/koksoon7417/koksoon-chatbot#readme",
+  "dependencies": {}
+}

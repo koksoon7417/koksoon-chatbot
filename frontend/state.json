@@ -1,0 +1,50 @@
+{
+   "messages":[
+      {
+         "from":0,
+         "content":{
+            "type":1,
+            "text":"Great, I knew a question was coming! Feel free to ask me your own question in the message box.&nbsp;"
+         },
+         "key":"BotMessage-e5f8215d-2952-48e8-81c8-315594cc001c"
+      },
+      {
+         "from":1,
+         "content":"Hello",
+         "key":"HumanMessage-3b5e4741-4846-44c4-b782-1a22f75abfaa"
+      },
+      {
+         "from":0,
+         "content":{
+            "type":1,
+            "text":"Hey! What can I do for you?"
+         },
+         "key":"BotMessage-f4fc7faa-223d-4170-9898-8c5f460c82db"
+      },
+      {
+         "from":1,
+         "content":"What is wallet size?",
+         "key":"HumanMessage-22a62f60-46fd-4619-858e-0d579b3fe7c5"
+      },
+      {
+         "from":0,
+         "content":{
+            "type":10,
+            "text":"Here are some info on the limitations of Wallet sizes.",
+            "cards":[
+               {
+                  "desc":"Your Monthly Transaction Limit means the monthly limit imposed in any one (1) calendar month.",
+                  "title":"Monthly Transaction Limit",
+                  "key":"CardMessage-306c3142-922a-4131-bb52-9c9de6692ec9"
+               },
+               {
+                  "title":"Annual Transaction Limit",
+                  "desc":"Annual Transaction Limit imposed every (12) calendar months.<br>Here are the tier based limits.",
+                  "key":"CardMessage-9d6f43df-44fb-47b7-8cf8-0665c583d22d"
+               }
+            ]
+         },
+         "key":"BotMessage-28b31be8-c94a-4881-b25b-467c7755755b"
+      }
+   ]
+}

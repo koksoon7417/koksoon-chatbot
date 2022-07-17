@@ -1,0 +1,52 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.messageBot {
+  border: 1px solid #ececec;
+  border-radius: 1rem;
+  margin-block: 0.5rem;
+  padding: 1rem;
+  background-color: #ececec;
+  margin-right: 40%;
+}
+
+.messageUser {
+  text-align: right;
+  border: 1px solid #579ffb;
+  border-radius: 1rem;
+  margin-block: 0.5rem;
+  padding: 1rem;
+  background-color: #579ffb;
+  margin-left: 40%;
+  color: white;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.sendMessage {
+  display: flex;
+  padding-block: 1rem;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.input {
+  flex: 9;
+  padding:  0.5rem;
+  margin-right: 1rem;
+}
+
+.button {
+  flex: 1;
+  padding:  0.5rem;
+}
