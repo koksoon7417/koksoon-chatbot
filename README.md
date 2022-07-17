@@ -1,3 +1,9 @@
+# My Chatbot
+
+Available on: https://koksoon-chatbot.netlify.app/
+
+Take note: all the chat histories are recorded in one session only.
+
 # Getting Start
 
 ```bash
